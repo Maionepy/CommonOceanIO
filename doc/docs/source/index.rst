@@ -17,6 +17,28 @@ The structure of the repository is:
 |   └── main.py                         # Main file       
 
 
+
+.. _documentation:
+
+Documentation
+------------
+
+The full documentation of the API and introducing examples can be found under `commonocean.cps.in.tum.de <https://commonocean.cps.in.tum.de>`__.
+
+For getting started, we recommend our `tutorials <https://commonocean.cps.in.tum.de/commonocean-io>`__.
+
+Requirements
+============
+
+The required dependencies for running CommonRoad_io are:
+
+* numpy>=1.13
+* shapely>=1.6.4
+* matplotlib>=2.2.2
+* lxml>=4.2.2
+* networkx>=2.2
+* Pillow>=7.0.0
+
 .. _installation:
 
 Installation
@@ -56,3 +78,11 @@ Now everything is installed and you can run the main.py file or start jupyter no
 .. code-block:: console
 
    $ jupyter notebook
+
+
+
+Contact information
+===================
+
+:Website: `https://commonocean.cps.in.tum.de <https://commonocean.cps.in.tum.de>`_
+:Email: `commonocean@lists.lrz.de <commonocean@lists.lrz.de>`_
