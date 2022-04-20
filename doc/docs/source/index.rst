@@ -17,7 +17,6 @@ The structure of the repository is:
 |   └── main.py                         # Main file       
 
 
-
 .. _documentation:
 
 Documentation
@@ -32,14 +31,25 @@ For getting started, we recommend our `tutorials <https://commonocean.cps.in.tum
 Requirements
 ------------
 
-The required dependencies for running CommonRoad_io are:
+The required dependencies for running CommonOceanIO are:
 
-* numpy>=1.13
-* shapely>=1.6.4
-* matplotlib>=2.2.2
+* commonroad-io==2021.1
+* tqdm>=4.50.2
+* networkx>=2.4
+* ipywidgets~=7.5.1
+* ipython-autotime~=0.1
+* matplotlib~=3.3.2
+* numpy~=1.21.1
+* ipython~=7.18.1
+* pyyaml~=5.3.1
+* imageio~=2.9.0
+* shapely>=1.6.4.post2
+* setuptools>=42.0.1
 * lxml>=4.2.2
-* networkx>=2.2
 * Pillow>=7.0.0
+* iso3166>=1.0.1
+* pytest>=7.1.1
+
 
 .. _installation:
 
