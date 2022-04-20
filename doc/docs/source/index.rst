@@ -27,6 +27,8 @@ The full documentation of the API and introducing examples can be found under `c
 
 For getting started, we recommend our `tutorials <https://commonocean.cps.in.tum.de/commonocean-io>`__.
 
+.. _requirements:
+
 Requirements
 ============
 
@@ -80,6 +82,7 @@ Now everything is installed and you can run the main.py file or start jupyter no
    $ jupyter notebook
 
 
+.. _contactinformation:
 
 Contact information
 ===================
