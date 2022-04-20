@@ -30,7 +30,7 @@ For getting started, we recommend our `tutorials <https://commonocean.cps.in.tum
 .. _requirements:
 
 Requirements
-============
+------------
 
 The required dependencies for running CommonRoad_io are:
 
@@ -85,7 +85,7 @@ Now everything is installed and you can run the main.py file or start jupyter no
 .. _contactinformation:
 
 Contact information
-===================
+-------------------
 
 :Website: `https://commonocean.cps.in.tum.de <https://commonocean.cps.in.tum.de>`_
 :Email: `commonocean@lists.lrz.de <commonocean@lists.lrz.de>`_
