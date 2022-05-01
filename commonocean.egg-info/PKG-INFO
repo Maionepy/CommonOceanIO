@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: commonocean
+Version: 2021.1
+Summary: Python tool to read, write, and visualize CommonOcean scenarios and solutions for automated vessels.
+Home-page: UNKNOWN
+Author: Cyber-Physical Systems Group, Technical University of Munich
+Author-email: hanna.krasowski@tum.de
+License: GNU General Public License v3.0
+Keywords: autonomous automated vessels motion planning
+Platform: UNKNOWN
+Provides-Extra: doc
+Provides-Extra: tests
+
+UNKNOWN
+

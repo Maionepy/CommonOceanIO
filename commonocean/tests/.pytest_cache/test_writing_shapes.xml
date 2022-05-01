@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<commonOcean timeStepSize="0.1" commonOceanVersion="2022a" author="PrinceOfZAM" affiliation="TU Munich" source="test" benchmarkID="ZAM_test-0_1" date="2022-05-01">
+  <location>
+    <geoNameId>2867714</geoNameId>
+    <gpsLatitude>48.262333</gpsLatitude>
+    <gpsLongitude>11.668775</gpsLongitude>
+  </location>
+  <scenarioTags>
+    <open_sea/>
+  </scenarioTags>
+  <waters id="100">
+    <leftBound>
+      <point>
+        <x>12345.12</x>
+        <y>0.0</y>
+      </point>
+      <point>
+        <x>1.0</x>
+        <y>0.0</y>
+      </point>
+      <point>
+        <x>2.0</x>
+        <y>0.0</y>
+      </point>
+    </leftBound>
+    <rightBound>
+      <point>
+        <x>0.0</x>
+        <y>2.0</y>
+      </point>
+      <point>
+        <x>1.0</x>
+        <y>2.0</y>
+      </point>
+      <point>
+        <x>2.0</x>
+        <y>2.0</y>
+      </point>
+    </rightBound>
+    <predecessor ref="101"/>
+    <successor ref="101"/>
+    <watersType>opensea</watersType>
+  </waters>
+  <waters id="101">
+    <leftBound>
+      <point>
+        <x>0.0</x>
+        <y>0.0</y>
+      </point>
+      <point>
+        <x>1.0</x>
+        <y>0.0</y>
+      </point>
+      <point>
+        <x>2.0</x>
+        <y>0.0</y>
+      </point>
+    </leftBound>
+    <rightBound>
+      <point>
+        <x>0.0</x>
+        <y>2.0</y>
+      </point>
+      <point>
+        <x>1.0</x>
+        <y>2.0</y>
+      </point>
+      <point>
+        <x>2.0</x>
+        <y>2.0</y>
+      </point>
+    </rightBound>
+    <predecessor ref="100"/>
+    <successor ref="100"/>
+    <watersType>opensea</watersType>
+  </waters>
+  <staticObstacle id="3">
+    <type>unknown</type>
+    <shape>
+      <circle>
+        <radius>2.0</radius>
+        <center>
+          <x>10.0</x>
+          <y>0.0</y>
+        </center>
+      </circle>
+    </shape>
+    <initialState>
+      <position>
+        <point>
+          <x>0.0</x>
+          <y>0.0</y>
+        </point>
+      </position>
+      <orientation>
+        <exact>0.0</exact>
+      </orientation>
+      <time>
+        <exact>0</exact>
+      </time>
+    </initialState>
+  </staticObstacle>
+  <planningProblem id="1000">
+    <initialState>
+      <position>
+        <point>
+          <x>0.0</x>
+          <y>0.0</y>
+        </point>
+      </position>
+      <orientation>
+        <exact>0.0</exact>
+      </orientation>
+      <time>
+        <exact>0</exact>
+      </time>
+      <velocity>
+        <exact>0.1</exact>
+      </velocity>
+      <yawRate>
+        <exact>0.0</exact>
+      </yawRate>
+    </initialState>
+    <goalState>
+      <position>
+        <water ref="100"/>
+        <water ref="101"/>
+      </position>
+      <time>
+        <intervalStart>0</intervalStart>
+        <intervalEnd>1</intervalEnd>
+      </time>
+      <velocity>
+        <intervalStart>0.0</intervalStart>
+        <intervalEnd>1.0</intervalEnd>
+      </velocity>
+    </goalState>
+    <goalState>
+      <position>
+        <water ref="101"/>
+      </position>
+      <time>
+        <intervalStart>1</intervalStart>
+        <intervalEnd>2</intervalEnd>
+      </time>
+      <velocity>
+        <intervalStart>0.0</intervalStart>
+        <intervalEnd>1.0</intervalEnd>
+      </velocity>
+    </goalState>
+  </planningProblem>
+</commonOcean>
