@@ -24,7 +24,18 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'matplotlib.sphinxext.plot_directive',
+    'IPython.sphinxext.ipython_directive',
+    'IPython.sphinxext.ipython_console_highlighting',
+    'sphinx_autodoc_typehints',    
+    'sphinx.ext.inheritance_diagram',
+    'sphinx.ext.coverage',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.viewcode',
 ]
+
+
+
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
