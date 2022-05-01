@@ -27,7 +27,6 @@ extensions = [
     'matplotlib.sphinxext.plot_directive',
     'IPython.sphinxext.ipython_directive',
     'IPython.sphinxext.ipython_console_highlighting',
-    'sphinx_autodoc_typehints',    
     'sphinx.ext.inheritance_diagram',
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
