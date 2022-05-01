@@ -129,9 +129,6 @@ Different kinds of traffic participants are modeled as obstacles within the scen
 
 .. automodule:: commonocean.scenario.obstacle
 
-.. inheritance-diagram:: StaticObstacle DynamicObstacle
-   :parts: 1
-
 ``ObstacleRole`` class
 ^^^^^^^^^^^^^^^^^^^^^^
 .. autoclass:: ObstacleRole
